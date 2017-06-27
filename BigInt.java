@@ -2,7 +2,7 @@ package bigint;
 
 /**
  *
- * @author Dragonfly
+ * @author Eighteensons
  */
 public class BigInt {
     // digits are stoed in reversed order.
@@ -82,9 +82,6 @@ public class BigInt {
         return result;
     }
     
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         BigInt IntA = new BigInt("13579");
         BigInt IntB = new BigInt("2468");
